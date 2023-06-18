@@ -1,5 +1,8 @@
 import { Container } from "./Container";
 import Image from "next/image";
+import { ROUTES } from "@/constants/routes";
+import { Button } from "../Button";
+import { NavButton } from "../NavButton";
 export const AppHeader = () => {
   return (
     <header className="z-50 sticky start-0 left-0 top-0">
@@ -15,7 +18,7 @@ export const AppHeader = () => {
             />
             <div className="relative z-20 w-full flex justify-between lg:w-max md:px-0">
               <a
-                href="/"
+                href={ROUTES.HOME}
                 aria-label="logo"
                 className="flex space-x-2 items-center"
               >
@@ -58,56 +61,31 @@ export const AppHeader = () => {
             ></div>
             <div
               className="flex-col z-20 flex-wrap gap-6 p-8 rounded-3xl border border-gray-100 bg-white shadow-2xl shadow-gray-600/10 justify-end w-full invisible opacity-0 translate-y-1  absolute top-full left-0 transition-all duration-300 scale-95 origin-top 
-                            lg:relative lg:scale-100 lg:peer-checked:translate-y-0 lg:translate-y-0 lg:flex lg:flex-row lg:items-center lg:gap-0 lg:p-0 lg:bg-transparent lg:w-7/12 lg:visible lg:opacity-100 lg:border-none
+                            lg:relative lg:scale-100 lg:peer-checked:translate-y-0 lg:translate-y-0 lg:flex lg:flex-row lg:items-center lg:gap-4 lg:p-0 lg:bg-transparent lg:w-7/12 lg:visible lg:opacity-100 lg:border-none
                             peer-checked:scale-100 peer-checked:opacity-100 peer-checked:visible lg:shadow-none 
                             dark:shadow-none dark:bg-gray-800 dark:border-gray-700 lg:dark:bg-transparent"
             >
               <div className="text-gray-600 dark:text-gray-300 lg:pr-4 lg:w-auto w-full lg:pt-0">
-                <ul className="tracking-wide font-medium lg:text-sm flex-col flex lg:flex-row gap-6 lg:gap-0">
+                <ul className="tracking-wide font-medium lg:text-sm flex-col flex lg:flex-row gap-6 lg:gap-8">
                   <li>
-                    <a
-                      href="#"
-                      className="block md:px-4 transition hover:text-primary"
-                    >
-                      <span>Football</span>
-                    </a>
+                    <NavButton path={ROUTES.FOOTBALL}>Football</NavButton>
                   </li>
                   <li>
-                    <a
-                      href="#"
-                      className="block md:px-4 transition hover:text-primary"
-                    >
-                      <span>Fifa Online 4</span>
-                    </a>
+                    <NavButton path={ROUTES.FO4}>Fifa Online 4</NavButton>
                   </li>
                   <li>
-                    <a
-                      href="#"
-                      className="block md:px-4 transition hover:text-primary"
-                    >
-                      <span>Badminton</span>
-                    </a>
+                    <NavButton>Badminton</NavButton>
                   </li>
                   <li>
-                    <a
-                      href="#"
-                      className="block md:px-4 transition hover:text-primary"
-                    >
-                      <span>Chess</span>
-                    </a>
+                    <NavButton>Chess</NavButton>
                   </li>
                 </ul>
               </div>
 
               <div className="mt-12 lg:mt-0">
-                <a
-                  href="#sports"
-                  className="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:border before:border-transparent before:bg-primary/10 before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-gray-800 sm:w-max"
-                >
-                  <span className="relative text-base font-semibold text-primary dark:text-white">
-                    Join now
-                  </span>
-                </a>
+                <Button href="#sports" variant="secondary">
+                  Join now
+                </Button>
               </div>
             </div>
           </div>

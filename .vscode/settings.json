@@ -2,7 +2,7 @@
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "cSpell.ignoreWords": ["tailwindcss"],
+  "cSpell.ignoreWords": ["tailwindcss", "Fifa"],
   "jest.autoRun": "off",
   "jest.showCoverageOnLoad": true,
   "jest.coverageFormatter": "GutterFormatter"

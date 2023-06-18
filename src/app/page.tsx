@@ -1,8 +1,8 @@
-import { Blog } from "@/components/Blog";
-import { CallToAction } from "@/components/CallToAction";
-import { SportsSection } from "@/components/SportsSection";
-import { HeroSection } from "@/components/HeroSection";
-import { Testimonials } from "@/components/Testimonials";
+import { Blog } from "@/components/home/Blog";
+import { CallToAction } from "@/components/home/CallToAction";
+import { SportsSection } from "@/components/home/SportsSection";
+import { HeroSection } from "@/components/home/HeroSection";
+import { Testimonials } from "@/components/home/Testimonials";
 
 export default function Home() {
   return (
