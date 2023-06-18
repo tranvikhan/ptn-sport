@@ -1,12 +1,31 @@
+"use client";
 import { Container } from "./Container";
 import Image from "next/image";
 import { ROUTES } from "@/constants/routes";
 import { Button } from "../Button";
 import { NavButton } from "../NavButton";
+import { useEffect, useState } from "react";
 export const AppHeader = () => {
+  const [isShow, setIsShow] = useState(false);
+  const handleScroll = () => {
+    const position = window.pageYOffset;
+    setIsShow(position > 200);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <header className="z-50 sticky start-0 left-0 top-0">
-      <nav className="w-full relative bg-white dark:bg-black bg-opacity-10 dark:bg-opacity-10 backdrop-blur-2xl">
+      <nav
+        className={`w-full relative ${
+          isShow ? "bg-white/50 dark:bg-black/50" : "bg-transparent"
+        }  backdrop-blur-2xl`}
+      >
         <Container>
           <div className="flex flex-wrap items-center justify-between py-2 gap-6 md:py-4 md:gap-0 relative ">
             <input

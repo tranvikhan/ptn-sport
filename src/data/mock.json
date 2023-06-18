@@ -1,0 +1,710 @@
+{
+  "teams": {
+    "a1": {
+      "id": "a1",
+      "name": "Tin Tran",
+      "teamName": "Spain",
+      "teamLogo": "/images/fo4/2023/team-logo/Spain.png",
+      "image": "/images/fo4/2023/name-cards/Tin Tran.jpg"
+    },
+    "a2": {
+      "id": "a2",
+      "name": "Phuong Tran",
+      "teamName": "Morocco",
+      "teamLogo": "/images/fo4/2023/team-logo/Morocco.png",
+      "image": "/images/fo4/2023/name-cards/Phuong Tran.jpg"
+    },
+    "a3": {
+      "id": "a3",
+      "name": "Dang Nguyen",
+      "teamName": "Denmark",
+      "teamLogo": "/images/fo4/2023/team-logo/Denmark.png",
+      "image": "/images/fo4/2023/name-cards/Dang Nguyen.jpg"
+    },
+    "a4": {
+      "id": "a4",
+      "name": "Huy Nguyen",
+      "teamName": "Portugal",
+      "teamLogo": "/images/fo4/2023/team-logo/Portugal.png",
+      "image": "/images/fo4/2023/name-cards/Huy Nguyen.jpg"
+    },
+    "b1": {
+      "id": "b1",
+      "name": "Duy Vo",
+      "teamName": "Italia",
+      "teamLogo": "/images/fo4/2023/team-logo/Italia.png",
+      "image": "/images/fo4/2023/name-cards/Duy Vo.jpg"
+    },
+    "b2": {
+      "id": "b2",
+      "name": "Toan Tran",
+      "teamName": "Netherlands",
+      "teamLogo": "/images/fo4/2023/team-logo/Netherlands.png",
+      "image": "/images/fo4/2023/name-cards/Toan Tran.jpg"
+    },
+    "b3": {
+      "id": "b3",
+      "name": "Vu Nguyen",
+      "teamName": "England",
+      "teamLogo": "/images/fo4/2023/team-logo/England.png",
+      "image": "/images/fo4/2023/name-cards/Vu Nguyen.jpg"
+    },
+    "b4": {
+      "id": "b4",
+      "name": "Tan Tran",
+      "teamName": "Croatia",
+      "teamLogo": "/images/fo4/2023/team-logo/Croatia.png",
+      "image": "/images/fo4/2023/name-cards/Tan Tran.jpg"
+    },
+    "c1": {
+      "id": "c1",
+      "name": "Chien Le",
+      "teamName": "Brazil",
+      "teamLogo": "/images/fo4/2023/team-logo/Brazil.png",
+      "image": "/images/fo4/2023/name-cards/Chien Le.jpg"
+    },
+    "c2": {
+      "id": "c2",
+      "name": "Phung Nguyen",
+      "teamName": "Australia",
+      "teamLogo": "/images/fo4/2023/team-logo/Australia.png",
+      "image": "/images/fo4/2023/name-cards/Phung Nguyen.jpg"
+    },
+    "c3": {
+      "id": "c3",
+      "name": "Huy Pham",
+      "teamName": "Belgium",
+      "teamLogo": "/images/fo4/2023/team-logo/Belgium.png",
+      "image": "/images/fo4/2023/name-cards/Huy Pham.jpg"
+    },
+    "c4": {
+      "id": "c4",
+      "name": "Trong Ngo",
+      "teamName": "Germany",
+      "teamLogo": "/images/fo4/2023/team-logo/Germany.png",
+      "image": "/images/fo4/2023/name-cards/Trong Ngo.jpg"
+    },
+    "d1": {
+      "id": "d1",
+      "name": "Hau Dang",
+      "teamName": "Poland",
+      "teamLogo": "/images/fo4/2023/team-logo/Poland.png",
+      "image": "/images/fo4/2023/name-cards/Hau Dang.jpg"
+    },
+    "d2": {
+      "id": "d2",
+      "name": "Khan Tran",
+      "teamName": "France",
+      "teamLogo": "/images/fo4/2023/team-logo/France.png",
+      "image": "/images/fo4/2023/name-cards/Khan Tran.jpg"
+    },
+    "d3": {
+      "id": "d3",
+      "name": "Linh Pham",
+      "teamName": "Argentina",
+      "teamLogo": "/images/fo4/2023/team-logo/Argentina.png",
+      "image": "/images/fo4/2023/name-cards/Linh Pham.jpg"
+    },
+    "d4": {
+      "id": "d4",
+      "name": "Tri Ta",
+      "teamName": "Ghana",
+      "teamLogo": "/images/fo4/2023/team-logo/Ghana.png",
+      "image": "/images/fo4/2023/name-cards/Tri Ta.jpg"
+    }
+  },
+  "matches": {
+    "a12-d1": {
+      "id": "a12-d1",
+      "type": "Group A Day 1",
+      "startAt": "2023/06/19 12:30",
+      "endAt": null,
+      "teamA": {
+        "id": "a1",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      },
+      "teamB": {
+        "id": "a2",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      }
+    },
+    "a34-d1": {
+      "id": "a34-d1",
+      "type": "Group A Day 1",
+      "startAt": "2023/06/19 12:30",
+      "endAt": null,
+      "teamA": {
+        "id": "a3",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      },
+      "teamB": {
+        "id": "a4",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      }
+    },
+    "b12-d1": {
+      "id": "b12-d1",
+      "type": "Group B Day 1",
+      "startAt": "2023/06/19 12:30",
+      "endAt": null,
+      "teamA": {
+        "id": "b1",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      },
+      "teamB": {
+        "id": "b2",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      }
+    },
+    "b34-d1": {
+      "id": "b34-d1",
+      "type": "Group B Day 1",
+      "startAt": "2023/06/19 12:30",
+      "endAt": null,
+      "teamA": {
+        "id": "b3",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      },
+      "teamB": {
+        "id": "b4",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      }
+    },
+    "c12-d1": {
+      "id": "c12-d1",
+      "type": "Group C Day 1",
+      "startAt": "2023/06/19 12:50",
+      "endAt": null,
+      "teamA": {
+        "id": "c1",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      },
+      "teamB": {
+        "id": "c2",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      }
+    },
+    "c34-d1": {
+      "id": "c34-d1",
+      "type": "Group C Day 1",
+      "startAt": "2023/06/19 12:50",
+      "endAt": null,
+      "teamA": {
+        "id": "c3",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      },
+      "teamB": {
+        "id": "c4",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      }
+    },
+    "d12-d1": {
+      "id": "d12-d1",
+      "type": "Group D Day 1",
+      "startAt": "2023/06/19 12:50",
+      "endAt": null,
+      "teamA": {
+        "id": "c1",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      },
+      "teamB": {
+        "id": "c2",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      }
+    },
+    "d34-d1": {
+      "id": "d34-d1",
+      "type": "Group D Day 1",
+      "startAt": "2023/06/19 12:50",
+      "endAt": null,
+      "teamA": {
+        "id": "d3",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      },
+      "teamB": {
+        "id": "d4",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      }
+    },
+    "a13-d2": {
+      "id": "a13-d2",
+      "type": "Group A Day 2",
+      "startAt": "2023/06/20 12:30",
+      "endAt": null,
+      "teamA": {
+        "id": "a1",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      },
+      "teamB": {
+        "id": "a3",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      }
+    },
+    "a24-d2": {
+      "id": "a24-d2",
+      "type": "Group A Day 2",
+      "startAt": "2023/06/20 12:30",
+      "endAt": null,
+      "teamA": {
+        "id": "a2",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      },
+      "teamB": {
+        "id": "a4",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      }
+    },
+    "b13-d2": {
+      "id": "b13-d2",
+      "type": "Group B Day 2",
+      "startAt": "2023/06/20 12:30",
+      "endAt": null,
+      "teamA": {
+        "id": "b1",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      },
+      "teamB": {
+        "id": "b3",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      }
+    },
+    "b24-d2": {
+      "id": "b24-d2",
+      "type": "Group B Day 2",
+      "startAt": "2023/06/20 12:30",
+      "endAt": null,
+      "teamA": {
+        "id": "b2",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      },
+      "teamB": {
+        "id": "b4",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      }
+    },
+    "c13-d2": {
+      "id": "c13-d2",
+      "type": "Group C Day 2",
+      "startAt": "2023/06/20 12:50",
+      "endAt": null,
+      "teamA": {
+        "id": "c1",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      },
+      "teamB": {
+        "id": "c3",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      }
+    },
+    "c24-d2": {
+      "id": "c24-d2",
+      "type": "Group C Day 2",
+      "startAt": "2023/06/20 12:50",
+      "endAt": null,
+      "teamA": {
+        "id": "c2",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      },
+      "teamB": {
+        "id": "c4",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      }
+    },
+    "d13-d2": {
+      "id": "d13-d2",
+      "type": "Group D Day 2",
+      "startAt": "2023/06/20 12:50",
+      "endAt": null,
+      "teamA": {
+        "id": "d1",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      },
+      "teamB": {
+        "id": "d3",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      }
+    },
+    "d24-d2": {
+      "id": "d24-d2",
+      "type": "Group D Day 2",
+      "startAt": "2023/06/20 12:50",
+      "endAt": null,
+      "teamA": {
+        "id": "d2",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      },
+      "teamB": {
+        "id": "d4",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      }
+    },
+    "a23-d3": {
+      "id": "a23-d3",
+      "type": "Group A Day 3",
+      "startAt": "2023/06/21 12:30",
+      "endAt": null,
+      "teamA": {
+        "id": "a2",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      },
+      "teamB": {
+        "id": "a3",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      }
+    },
+    "a14-d3": {
+      "id": "a14-d3",
+      "type": "Group A Day 3",
+      "startAt": "2023/06/21 12:30",
+      "endAt": null,
+      "teamA": {
+        "id": "a1",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      },
+      "teamB": {
+        "id": "a4",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      }
+    },
+    "b23-d3": {
+      "id": "b23-d3",
+      "type": "Group B Day 3",
+      "startAt": "2023/06/21 12:30",
+      "endAt": null,
+      "teamA": {
+        "id": "b2",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      },
+      "teamB": {
+        "id": "b3",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      }
+    },
+    "b14-d3": {
+      "id": "b14-d3",
+      "type": "Group B Day 3",
+      "startAt": "2023/06/21 12:30",
+      "endAt": null,
+      "teamA": {
+        "id": "b1",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      },
+      "teamB": {
+        "id": "b4",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      }
+    },
+    "c23-d3": {
+      "id": "c23-d3",
+      "type": "Group C Day 3",
+      "startAt": "2023/06/21 12:50",
+      "endAt": null,
+      "teamA": {
+        "id": "c2",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      },
+      "teamB": {
+        "id": "c3",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      }
+    },
+    "c14-d3": {
+      "id": "c14-d3",
+      "type": "Group C Day 3",
+      "startAt": "2023/06/21 12:50",
+      "endAt": null,
+      "teamA": {
+        "id": "c1",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      },
+      "teamB": {
+        "id": "c4",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      }
+    },
+    "d23-d3": {
+      "id": "d23-d3",
+      "type": "Group D Day 3",
+      "startAt": "2023/06/21 12:50",
+      "endAt": null,
+      "teamA": {
+        "id": "d2",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      },
+      "teamB": {
+        "id": "d3",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      }
+    },
+    "d14-d3": {
+      "id": "d14-d3",
+      "type": "Group C Day 3",
+      "startAt": "2023/06/21 12:50",
+      "endAt": null,
+      "teamA": {
+        "id": "d1",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      },
+      "teamB": {
+        "id": "d4",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      }
+    },
+    "q1": {
+      "id": "q1",
+      "type": "Quarterfinals 1",
+      "startAt": "2023/06/22 12:30",
+      "endAt": null,
+      "teamA": {
+        "id": null,
+        "placeholder": "1st Group A",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      },
+      "teamB": {
+        "id": null,
+        "placeholder": "2nd Group B",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      }
+    },
+    "q2": {
+      "id": "q2",
+      "type": "Quarterfinals 2",
+      "startAt": "2023/06/22 12:30",
+      "endAt": null,
+      "teamA": {
+        "id": null,
+        "placeholder": "1st Group B",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      },
+      "teamB": {
+        "id": null,
+        "placeholder": "2nd Group C",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      }
+    },
+    "q3": {
+      "id": "q3",
+      "type": "Quarterfinals 3",
+      "startAt": "2023/06/22 12:50",
+      "endAt": null,
+      "teamA": {
+        "id": null,
+        "placeholder": "1st Group C",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      },
+      "teamB": {
+        "id": null,
+        "placeholder": "2nd Group D",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      }
+    },
+    "q4": {
+      "id": "q4",
+      "type": "Quarterfinals 4",
+      "startAt": "2023/06/22 12:50",
+      "endAt": null,
+      "teamA": {
+        "id": null,
+        "placeholder": "1st Group D",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      },
+      "teamB": {
+        "id": null,
+        "placeholder": "2nd Group A",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      }
+    },
+    "s1": {
+      "id": "s1",
+      "type": "Semi-final 1",
+      "startAt": "2023/06/23 12:30",
+      "endAt": null,
+      "teamA": {
+        "id": null,
+        "placeholder": "Win Quarterfinals 1",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      },
+      "teamB": {
+        "id": null,
+        "placeholder": "Win Quarterfinals 3",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      }
+    },
+    "s2": {
+      "id": "s2",
+      "type": "Semi-final 2",
+      "startAt": "2023/06/23 12:30",
+      "endAt": null,
+      "teamA": {
+        "id": null,
+        "placeholder": "Win Quarterfinals 2",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      },
+      "teamB": {
+        "id": null,
+        "placeholder": "Win Quarterfinals 4",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      }
+    },
+    "3rd": {
+      "id": "3rd",
+      "type": "3rd prize",
+      "startAt": "2023/06/23 16:00",
+      "endAt": null,
+      "teamA": {
+        "id": null,
+        "placeholder": "Lose Semi-final 1",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      },
+      "teamB": {
+        "id": null,
+        "placeholder": "Lose Semi-final 2",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      }
+    },
+    "final": {
+      "id": "final",
+      "type": "Final",
+      "startAt": "2023/06/23 16:30",
+      "endAt": null,
+      "teamA": {
+        "id": null,
+        "placeholder": "Win Semi-final 1",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      },
+      "teamB": {
+        "id": null,
+        "placeholder": "Win Semi-final 2",
+        "scores": null,
+        "yellowCard": null,
+        "redCard": null
+      }
+    }
+  }
+}

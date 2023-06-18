@@ -1,3 +1,4 @@
+import { ROUTES } from "@/constants/routes";
 import Image from "next/image";
 import { Container } from "../layout/Container";
 
@@ -46,7 +47,7 @@ export const SportsSection = () => {
                 </p>
               </div>
               <a
-                href="#"
+                href={ROUTES.FOOTBALL}
                 className="flex items-center justify-between group-hover:text-secondary"
               >
                 <span className="text-sm">Read more</span>
@@ -84,7 +85,7 @@ export const SportsSection = () => {
                 </p>
               </div>
               <a
-                href="#"
+                href={ROUTES.FO4}
                 className="flex items-center justify-between group-hover:text-secondary"
               >
                 <span className="text-sm">Read more</span>
@@ -122,7 +123,7 @@ export const SportsSection = () => {
                 </p>
               </div>
               <a
-                href="#"
+                href={ROUTES.BADMINTON}
                 className="flex items-center justify-between group-hover:text-secondary"
               >
                 <span className="text-sm">Read more</span>
@@ -160,7 +161,7 @@ export const SportsSection = () => {
                 </p>
               </div>
               <a
-                href="#"
+                href={ROUTES.CHESS}
                 className="flex items-center justify-between group-hover:text-secondary"
               >
                 <span className="text-sm">Read more</span>

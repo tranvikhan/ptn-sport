@@ -18,7 +18,7 @@ export const Blog = () => {
           <div className="group p-6 sm:p-8 rounded-3xl bg-white border border-gray-100 dark:shadow-none dark:border-gray-700 dark:bg-gray-800 bg-opacity-50 shadow-2xl shadow-gray-600/10">
             <div className="relative overflow-hidden rounded-xl">
               <Image
-                src="https://i.ibb.co/G9LJPCs/Banner-Small.png"
+                src="/images/posts/fo42023.png"
                 alt="art cover"
                 loading="lazy"
                 width="1000"
@@ -44,7 +44,7 @@ export const Blog = () => {
           <div className="group p-6 sm:p-8 rounded-3xl bg-white border border-gray-100 dark:shadow-none dark:border-gray-700 dark:bg-gray-800 bg-opacity-50 shadow-2xl shadow-gray-600/10">
             <div className="relative overflow-hidden rounded-xl">
               <Image
-                src="https://i.ibb.co/L0Nhm9y/Microsoft-Teams-image-2.png"
+                src="/images/posts/chess2023.png"
                 alt="art cover"
                 loading="lazy"
                 width="1000"
@@ -71,7 +71,7 @@ export const Blog = () => {
           <div className="group p-6 sm:p-8 rounded-3xl bg-white border border-gray-100 dark:shadow-none dark:border-gray-700 dark:bg-gray-800 bg-opacity-50 shadow-2xl shadow-gray-600/10">
             <div className="relative overflow-hidden rounded-xl">
               <Image
-                src="https://i.ibb.co/K063kb3/Screenshot-2023-06-18-230717.png"
+                src="/images/posts/football2023.png"
                 alt="art cover"
                 loading="lazy"
                 width="1000"

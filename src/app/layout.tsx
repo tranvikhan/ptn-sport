@@ -11,8 +11,7 @@ const roboto = Roboto({
 
 export const metadata = {
   title: "PTN Sports",
-  description:
-    "Updating information about sports tournaments of Laboratory Global",
+  description: "Updating information about sports tournaments of PTN Global",
 };
 
 export default function RootLayout({

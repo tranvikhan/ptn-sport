@@ -29,11 +29,11 @@ export const HeroSection = () => {
               unlock your full potential and achieve extraordinary feats.
             </p>
             <div className="mt-16 flex flex-wrap justify-center gap-y-4 gap-x-6">
+              <Button href="#testimonials" variant="secondary">
+                Learn more
+              </Button>
               <Button href="#sports" variant="primary">
                 Get started
-              </Button>
-              <Button href="#" variant="secondary">
-                Learn more
               </Button>
             </div>
           </div>
