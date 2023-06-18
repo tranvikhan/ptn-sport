@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "streetsidesoftware.code-spell-checker",
+    "wix.vscode-import-cost",
+    "oderwat.indent-rainbow",
+    "formulahendry.auto-rename-tag",
+    "aaron-bond.better-comments",
+    "naumovs.color-highlight",
+    "eamodio.gitlens",
+    "Orta.vscode-jest"
+  ]
+}

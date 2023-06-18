@@ -1,0 +1,9 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "cSpell.ignoreWords": ["tailwindcss"],
+  "jest.autoRun": "off",
+  "jest.showCoverageOnLoad": true,
+  "jest.coverageFormatter": "GutterFormatter"
+}
