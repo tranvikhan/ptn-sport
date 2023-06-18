@@ -20,7 +20,7 @@ export const MatchCard = ({ match }: MatchCardProps) => {
         </div>
         <div className="flex flex-row items-center justify-between gap-4">
           {match.teamA.detail ? (
-            <div className="w-2/5 flex flex-row gap-4 justify-start items-center">
+            <div className="w-1/3 md:w-2/5 flex flex-col md:flex-row gap-4 justify-start items-start md:items-center">
               <Image
                 src={match.teamA.detail.teamLogo}
                 alt={match.teamA.detail.teamName}
@@ -42,17 +42,17 @@ export const MatchCard = ({ match }: MatchCardProps) => {
               </div>
             </div>
           ) : (
-            <div className="w-2/5 text-sm md:text-md text-left">
+            <div className="w-1/3 md:w-2/5 text-sm md:text-md text-left text-gray-800 dark:text-gray-300">
               {match.teamA.placeholder}
             </div>
           )}
-          <div className="w-1/5">
+          <div className="w-1/3 md:w-1/5">
             {match.teamA.scores !== null && match.teamB.scores !== null ? (
               <div className="w-full p-2 text-sm md:text-md text-center font-semibold text-primary border bg-primary/10 border-primary rounded-3xl">
                 {`${match.teamA.scores} - ${match.teamB.scores}`}
               </div>
             ) : (
-              <div className="w-full p-2 text-sm md:text-md text-center font-semibold text-secondary border bg-secondary/10 border-secondary rounded-3xl">
+              <div className="w-full p-2 text-xs md:text-sm text-center font-semibold text-secondary border bg-secondary/10 border-secondary rounded-3xl">
                 <Countdown
                   date={new Date(match.startAt)}
                   renderer={({ completed, days, hours, minutes, seconds }) =>
@@ -66,15 +66,15 @@ export const MatchCard = ({ match }: MatchCardProps) => {
           </div>
 
           {match.teamB.detail ? (
-            <div className="w-2/5 flex flex-row gap-4 justify-end items-center">
+            <div className="w-1/3 md:w-2/5 flex flex-col-reverse md:flex-row gap-4 justify-start md:justify-end items-end md:items-center">
               <div>
                 <a
                   href={`#team-${match.teamB.id}`}
-                  className="text-sm md:text-md font-medium text-gray-900 dark:text-white hover:text-primary transition"
+                  className="text-sm md:text-md text-right font-medium text-gray-900 dark:text-white hover:text-primary transition"
                 >
                   {match.teamB.detail.name}
                 </a>
-                <p className="text-xs md:text-sm font-thin text-gray-800 dark:text-gray-300">
+                <p className="text-xs md:text-sm text-right font-thin text-gray-800 dark:text-gray-300">
                   {match.teamB.detail.teamName}
                 </p>
               </div>
@@ -88,7 +88,7 @@ export const MatchCard = ({ match }: MatchCardProps) => {
               />
             </div>
           ) : (
-            <div className="w-2/5 text-sm md:text-md text-right">
+            <div className="w-1/3 md:w-2/5 text-sm md:text-md text-right text-gray-800 dark:text-gray-300">
               {match.teamB.placeholder}
             </div>
           )}

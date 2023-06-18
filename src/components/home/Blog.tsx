@@ -1,3 +1,4 @@
+import { ROUTES } from "@/constants/routes";
 import Image from "next/image";
 import { Container } from "../layout/Container";
 
@@ -36,7 +37,7 @@ export const Blog = () => {
                 unite and support each other on our journey towards the
                 championship.
               </p>
-              <a className="inline-block" href="#">
+              <a className="inline-block" href={ROUTES.FO4}>
                 <span className="text-info dark:text-blue-300">Read more</span>
               </a>
             </div>
