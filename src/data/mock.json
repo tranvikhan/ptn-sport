@@ -228,13 +228,13 @@
       "startAt": "2023/06/19 12:50",
       "endAt": null,
       "teamA": {
-        "id": "c1",
+        "id": "d1",
         "scores": null,
         "yellowCard": null,
         "redCard": null
       },
       "teamB": {
-        "id": "c2",
+        "id": "d2",
         "scores": null,
         "yellowCard": null,
         "redCard": null
