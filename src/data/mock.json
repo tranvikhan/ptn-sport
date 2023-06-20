@@ -262,144 +262,144 @@
       "id": "a13-d2",
       "type": "Group A Day 2",
       "startAt": "2023/06/20 12:30",
-      "endAt": null,
+      "endAt": "2023/06/20 13:00",
       "teamA": {
         "id": "a1",
-        "scores": null,
-        "yellowCard": null,
-        "redCard": null
+        "scores": 1,
+        "yellowCard": 0,
+        "redCard": 0
       },
       "teamB": {
         "id": "a3",
-        "scores": null,
-        "yellowCard": null,
-        "redCard": null
+        "scores": 2,
+        "yellowCard": 0,
+        "redCard": 0
       }
     },
     "a24-d2": {
       "id": "a24-d2",
       "type": "Group A Day 2",
       "startAt": "2023/06/20 12:30",
-      "endAt": null,
+      "endAt": "2023/06/20 13:00",
       "teamA": {
         "id": "a2",
-        "scores": null,
-        "yellowCard": null,
-        "redCard": null
+        "scores": 2,
+        "yellowCard": 0,
+        "redCard": 0
       },
       "teamB": {
         "id": "a4",
-        "scores": null,
-        "yellowCard": null,
-        "redCard": null
+        "scores": 1,
+        "yellowCard": 0,
+        "redCard": 0
       }
     },
     "b13-d2": {
       "id": "b13-d2",
       "type": "Group B Day 2",
       "startAt": "2023/06/20 12:30",
-      "endAt": null,
+      "endAt": "2023/06/20 13:00",
       "teamA": {
         "id": "b1",
-        "scores": null,
-        "yellowCard": null,
-        "redCard": null
+        "scores": 1,
+        "yellowCard": 0,
+        "redCard": 0
       },
       "teamB": {
         "id": "b3",
-        "scores": null,
-        "yellowCard": null,
-        "redCard": null
+        "scores": 1,
+        "yellowCard": 0,
+        "redCard": 0
       }
     },
     "b24-d2": {
       "id": "b24-d2",
       "type": "Group B Day 2",
       "startAt": "2023/06/20 12:30",
-      "endAt": null,
+      "endAt": "2023/06/20 13:00",
       "teamA": {
         "id": "b2",
-        "scores": null,
-        "yellowCard": null,
-        "redCard": null
+        "scores": 3,
+        "yellowCard": 0,
+        "redCard": 0
       },
       "teamB": {
         "id": "b4",
-        "scores": null,
-        "yellowCard": null,
-        "redCard": null
+        "scores": 0,
+        "yellowCard": 1,
+        "redCard": 0
       }
     },
     "c13-d2": {
       "id": "c13-d2",
       "type": "Group C Day 2",
       "startAt": "2023/06/20 12:50",
-      "endAt": null,
+      "endAt": "2023/06/20 13:00",
       "teamA": {
         "id": "c1",
-        "scores": null,
-        "yellowCard": null,
-        "redCard": null
+        "scores": 0,
+        "yellowCard": 0,
+        "redCard": 0
       },
       "teamB": {
         "id": "c3",
-        "scores": null,
-        "yellowCard": null,
-        "redCard": null
+        "scores": 1,
+        "yellowCard": 0,
+        "redCard": 0
       }
     },
     "c24-d2": {
       "id": "c24-d2",
       "type": "Group C Day 2",
       "startAt": "2023/06/20 12:50",
-      "endAt": null,
+      "endAt": "2023/06/20 13:00",
       "teamA": {
         "id": "c2",
-        "scores": null,
-        "yellowCard": null,
-        "redCard": null
+        "scores": 0,
+        "yellowCard": 1,
+        "redCard": 0
       },
       "teamB": {
         "id": "c4",
-        "scores": null,
-        "yellowCard": null,
-        "redCard": null
+        "scores": 0,
+        "yellowCard": 1,
+        "redCard": 0
       }
     },
     "d13-d2": {
       "id": "d13-d2",
       "type": "Group D Day 2",
       "startAt": "2023/06/20 12:50",
-      "endAt": null,
+      "endAt": "2023/06/20 13:00",
       "teamA": {
         "id": "d1",
-        "scores": null,
-        "yellowCard": null,
-        "redCard": null
+        "scores": 1,
+        "yellowCard": 0,
+        "redCard": 1
       },
       "teamB": {
         "id": "d3",
-        "scores": null,
-        "yellowCard": null,
-        "redCard": null
+        "scores": 2,
+        "yellowCard": 0,
+        "redCard": 0
       }
     },
     "d24-d2": {
       "id": "d24-d2",
       "type": "Group D Day 2",
       "startAt": "2023/06/20 12:50",
-      "endAt": null,
+      "endAt": "2023/06/20 13:00",
       "teamA": {
         "id": "d2",
-        "scores": null,
-        "yellowCard": null,
-        "redCard": null
+        "scores": 0,
+        "yellowCard": 0,
+        "redCard": 0
       },
       "teamB": {
         "id": "d4",
-        "scores": null,
-        "yellowCard": null,
-        "redCard": null
+        "scores": 2,
+        "yellowCard": 0,
+        "redCard": 0
       }
     },
     "a23-d3": {
