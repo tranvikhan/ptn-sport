@@ -1,9 +1,8 @@
-import { Container } from "../layout/Container";
-import Image from "next/image";
-import data from "../../data/mock.json";
-import { MatchCard } from "./MatchCard";
 import { Match } from "@/models/Match";
 import { Team } from "@/models/Team";
+import data from "../../data/mock.json";
+import { Container } from "../layout/Container";
+import { MatchCard } from "./MatchCard";
 export const FO4MatchesSections = () => {
   const dataTeam = data.teams as {
     [key in string]: Team;

@@ -27,7 +27,7 @@ export const MatchCard = ({ match }: MatchCardProps) => {
                 loading="lazy"
                 width="320"
                 height="200"
-                className="h-8 md:h-12 w-8 md:w-16 object-cover object-center rounded-lg border border-gray-100 dark:border-gray-700"
+                className="h-8 md:h-12 w-10 md:w-16 object-cover object-center rounded-lg border border-gray-100 dark:border-gray-700"
               />
               <div>
                 <a
@@ -84,7 +84,7 @@ export const MatchCard = ({ match }: MatchCardProps) => {
                 loading="lazy"
                 width="320"
                 height="200"
-                className="h-8 md:h-12 w-8 md:w-16 object-cover object-center rounded-lg border border-gray-100 dark:border-gray-700"
+                className="h-8 md:h-12 w-10 md:w-16 object-cover object-center rounded-lg border border-gray-100 dark:border-gray-700"
               />
             </div>
           ) : (
