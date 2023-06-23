@@ -9,7 +9,7 @@ export const AppHeader = () => {
   const [isShow, setIsShow] = useState(false);
   const handleScroll = () => {
     const position = window.pageYOffset;
-    setIsShow(position > 200);
+    setIsShow(position > 100);
   };
 
   useEffect(() => {
@@ -23,8 +23,10 @@ export const AppHeader = () => {
     <header className="z-50 sticky start-0 left-0 top-0">
       <nav
         className={`w-full relative ${
-          isShow ? "bg-white/50 dark:bg-black/50" : "bg-transparent"
-        }  backdrop-blur-2xl`}
+          isShow
+            ? "bg-white/50 dark:bg-black/50 backdrop-blur-2xl"
+            : "bg-transparent"
+        }`}
       >
         <Container>
           <div className="flex flex-wrap items-center justify-between py-2 gap-6 md:py-4 md:gap-0 relative ">
