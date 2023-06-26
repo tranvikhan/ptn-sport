@@ -630,40 +630,44 @@
       "id": "s1",
       "type": "Semi-final 1",
       "startAt": "2023/06/26 12:30",
-      "endAt": null,
+      "endAt": "2023/06/26 13:30",
       "teamA": {
         "id": "b2",
         "placeholder": "Win Quarterfinals 1",
-        "scores": null,
-        "yellowCard": null,
-        "redCard": null
+        "scores": 2,
+        "yellowCard": 0,
+        "redCard": 0,
+        "pen": 5
       },
       "teamB": {
         "id": "d3",
         "placeholder": "Win Quarterfinals 3",
-        "scores": null,
-        "yellowCard": null,
-        "redCard": null
+        "scores": 2,
+        "yellowCard": 0,
+        "redCard": 0,
+        "pen": 4
       }
     },
     "s2": {
       "id": "s2",
       "type": "Semi-final 2",
       "startAt": "2023/06/26 12:50",
-      "endAt": null,
+      "endAt": "2023/06/26 13:30",
       "teamA": {
         "id": "b3",
         "placeholder": "Win Quarterfinals 2",
-        "scores": null,
-        "yellowCard": null,
-        "redCard": null
+        "scores": 1,
+        "yellowCard": 0,
+        "redCard": 0,
+        "pen": 5
       },
       "teamB": {
         "id": "d4",
         "placeholder": "Win Quarterfinals 4",
-        "scores": null,
-        "yellowCard": null,
-        "redCard": null
+        "scores": 1,
+        "yellowCard": 0,
+        "redCard": 0,
+        "pen": 4
       }
     },
     "3rd": {
@@ -672,14 +676,14 @@
       "startAt": "2023/06/26 17:00",
       "endAt": null,
       "teamA": {
-        "id": null,
+        "id": "d3",
         "placeholder": "Lose Semi-final 1",
         "scores": null,
         "yellowCard": null,
         "redCard": null
       },
       "teamB": {
-        "id": null,
+        "id": "d4",
         "placeholder": "Lose Semi-final 2",
         "scores": null,
         "yellowCard": null,
@@ -692,14 +696,14 @@
       "startAt": "2023/06/26 17:30",
       "endAt": null,
       "teamA": {
-        "id": null,
+        "id": "b2",
         "placeholder": "Win Semi-final 1",
         "scores": null,
         "yellowCard": null,
         "redCard": null
       },
       "teamB": {
-        "id": null,
+        "id": "b3",
         "placeholder": "Win Semi-final 2",
         "scores": null,
         "yellowCard": null,

@@ -49,7 +49,11 @@ export const MatchCard = ({ match }: MatchCardProps) => {
           <div className="w-1/3 md:w-1/5">
             {match.teamA.scores !== null && match.teamB.scores !== null ? (
               <div className="w-full p-2 text-sm md:text-md text-center font-semibold text-primary border bg-primary/10 border-primary rounded-3xl">
-                {`${match.teamA.scores} - ${match.teamB.scores}`}
+                {`${match.teamA.pen ? `(${match.teamA.pen})` : ""}${
+                  match.teamA.scores
+                } - ${match.teamB.scores}${
+                  match.teamB.pen ? `(${match.teamB.pen})` : ""
+                }`}
               </div>
             ) : (
               <div className="w-full p-2 text-xs md:text-sm text-center font-semibold text-secondary border bg-secondary/10 border-secondary rounded-3xl">

@@ -15,5 +15,6 @@ export interface MatchTeam {
   scores: number | null;
   yellowCard: number | null;
   redCard: number | null;
+  pen?: number | null;
   detail?: Team;
 }
