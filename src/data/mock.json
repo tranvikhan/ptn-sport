@@ -674,40 +674,40 @@
       "id": "3rd",
       "type": "3rd prize",
       "startAt": "2023/06/26 17:00",
-      "endAt": null,
+      "endAt": "2023/06/26 18:00",
       "teamA": {
         "id": "d3",
         "placeholder": "Lose Semi-final 1",
-        "scores": null,
-        "yellowCard": null,
-        "redCard": null
+        "scores": 1,
+        "yellowCard": 0,
+        "redCard": 0
       },
       "teamB": {
         "id": "d4",
         "placeholder": "Lose Semi-final 2",
-        "scores": null,
-        "yellowCard": null,
-        "redCard": null
+        "scores": 0,
+        "yellowCard": 0,
+        "redCard": 0
       }
     },
     "final": {
       "id": "final",
       "type": "Final",
       "startAt": "2023/06/26 17:30",
-      "endAt": null,
+      "endAt": "2023/06/26 18:00",
       "teamA": {
         "id": "b2",
         "placeholder": "Win Semi-final 1",
-        "scores": null,
-        "yellowCard": null,
-        "redCard": null
+        "scores": 2,
+        "yellowCard": 0,
+        "redCard": 0
       },
       "teamB": {
         "id": "b3",
         "placeholder": "Win Semi-final 2",
-        "scores": null,
-        "yellowCard": null,
-        "redCard": null
+        "scores": 1,
+        "yellowCard": 0,
+        "redCard": 0
       }
     }
   },
