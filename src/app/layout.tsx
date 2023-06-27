@@ -2,6 +2,7 @@ import "./globals.css";
 import { Roboto } from "next/font/google";
 import { AppHeader } from "@/components/layout/AppHeader";
 import { AppFooter } from "@/components/layout/AppFooter";
+import { Analytics } from "@vercel/analytics/react";
 
 const roboto = Roboto({
   weight: "400",
@@ -25,6 +26,7 @@ export default function RootLayout({
         <AppHeader />
         {children}
         <AppFooter />
+        <Analytics />
       </body>
     </html>
   );
