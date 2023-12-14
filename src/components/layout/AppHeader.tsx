@@ -1,15 +1,17 @@
 "use client";
-import { Container } from "./Container";
+
+import { AppContainer } from "./AppContainer";
 import Image from "next/image";
 import { ROUTES } from "@/constants/routes";
-import { Button } from "../Button";
-import { NavButton } from "../NavButton";
+import { Button } from "../core/Button";
+import { NavButton } from "../core/NavButton";
 import { useEffect, useState } from "react";
+
 export const AppHeader = () => {
   const [isShow, setIsShow] = useState(false);
   const handleScroll = () => {
-    const position = window.pageYOffset;
-    setIsShow(position > 100);
+    const position = window.scrollY;
+    setIsShow(position > 50);
   };
 
   useEffect(() => {
@@ -28,21 +30,16 @@ export const AppHeader = () => {
             : "bg-transparent"
         }`}
       >
-        <Container>
+        <AppContainer>
           <div className="flex flex-wrap items-center justify-between py-2 gap-6 md:py-4 md:gap-0 relative ">
             <input
-              aria-hidden="true"
               type="checkbox"
               name="toggle_nav"
               id="toggle_nav"
               className="hidden peer"
             />
             <div className="relative z-20 w-full flex justify-between lg:w-max md:px-0">
-              <a
-                href={ROUTES.HOME}
-                aria-label="logo"
-                className="flex space-x-2 items-center"
-              >
+              <a href={ROUTES.HOME} className="flex space-x-2 items-center">
                 <Image
                   src="/logo.png"
                   alt="PTN Logo"
@@ -57,9 +54,7 @@ export const AppHeader = () => {
 
               <div className="relative flex items-center lg:hidden max-h-10">
                 <label
-                  role="button"
                   htmlFor="toggle_nav"
-                  aria-label="humburger"
                   id="hamburger"
                   className="relative  p-6 -mr-6"
                 >
@@ -110,7 +105,7 @@ export const AppHeader = () => {
               </div>
             </div>
           </div>
-        </Container>
+        </AppContainer>
       </nav>
     </header>
   );

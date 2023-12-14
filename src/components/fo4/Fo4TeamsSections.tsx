@@ -1,10 +1,11 @@
-import { Container } from "../layout/Container";
+import { AppContainer } from "../layout/AppContainer";
 import Image from "next/image";
-import data from "../../data/mock.json";
-export const FO4TeamsSections = () => {
+import data from "../../data/fo4/mock.json";
+
+export const Fo4TeamsSections = () => {
   return (
     <div id={"teams"}>
-      <Container>
+      <AppContainer>
         <div className="md:w-2/3 lg:w-1/2">
           <h2 className="my-8 text-2xl font-bold text-gray-700 dark:text-white md:text-4xl">
             Teams
@@ -34,7 +35,7 @@ export const FO4TeamsSections = () => {
             </div>
           ))}
         </div>
-      </Container>
+      </AppContainer>
     </div>
   );
 };

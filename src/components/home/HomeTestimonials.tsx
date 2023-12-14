@@ -1,10 +1,10 @@
 import Image from "next/image";
-import { Container } from "../layout/Container";
+import { AppContainer } from "../layout/AppContainer";
 
-export const Testimonials = () => {
+export const HomeTestimonials = () => {
   return (
     <div className="text-gray-600 dark:text-gray-300" id="testimonials">
-      <Container>
+      <AppContainer>
         <div className="mb-20 space-y-4 px-6 md:px-0">
           <h2 className="text-center text-2xl font-bold text-gray-800 dark:text-white md:text-4xl">
             We have some fans.
@@ -168,7 +168,7 @@ export const Testimonials = () => {
             </p>
           </div>
         </div>
-      </Container>
+      </AppContainer>
     </div>
   );
 };

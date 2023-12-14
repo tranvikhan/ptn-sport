@@ -1,7 +1,7 @@
 import Image from "next/image";
-import { Container } from "../layout/Container";
+import { AppContainer } from "../layout/AppContainer";
 
-export const CallToAction = () => {
+export const HomeCallToAction = () => {
   return (
     <div className="relative py-16">
       <div
@@ -11,7 +11,7 @@ export const CallToAction = () => {
         <div className="blur-[106px] h-56 bg-gradient-to-br from-primary to-purple-400 dark:from-blue-700"></div>
         <div className="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-sky-300 dark:to-indigo-600"></div>
       </div>
-      <Container>
+      <AppContainer>
         <div className="relative">
           <div className="flex items-center justify-center -space-x-2">
             <Image
@@ -83,7 +83,7 @@ export const CallToAction = () => {
             </div>
           </div>
         </div>
-      </Container>
+      </AppContainer>
     </div>
   );
 };

@@ -1,12 +1,13 @@
 "use client";
-import { Match } from "@/models/Match";
+import { Fo4Match } from "@/models/fo4/entities";
 import { format } from "date-fns";
 import Image from "next/image";
 import Countdown from "react-countdown";
-export interface MatchCardProps {
-  match: Match;
+
+export interface Fo4MatchCardProps {
+  match: Fo4Match;
 }
-export const MatchCard = ({ match }: MatchCardProps) => {
+export const Fo4MatchCard = ({ match }: Fo4MatchCardProps) => {
   return (
     <div className="aspect-auto p-6 md:p-8 border border-gray-100 rounded-3xl bg-white dark:bg-gray-800 dark:border-gray-700 shadow-2xl shadow-gray-600/10 dark:shadow-none hover:shadow transition">
       <div className="flex flex-col gap-6">

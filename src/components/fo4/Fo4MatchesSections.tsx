@@ -1,15 +1,15 @@
-import { Match } from "@/models/Match";
-import { Team } from "@/models/Team";
-import data from "../../data/mock.json";
-import { Container } from "../layout/Container";
-import { MatchCard } from "./MatchCard";
-export const FO4MatchesSections = () => {
+import { Fo4Match, Fo4Team } from "@/models/fo4/entities";
+import data from "../../data/fo4/mock.json";
+import { AppContainer } from "../layout/AppContainer";
+import { Fo4MatchCard } from "./Fo4MatchCard";
+
+export const Fo4MatchesSections = () => {
   const dataTeam = data.teams as {
-    [key in string]: Team;
+    [key in string]: Fo4Team;
   };
   return (
     <div id={"matches"}>
-      <Container>
+      <AppContainer>
         <div className="md:w-2/3 lg:w-1/2">
           <h2 className="my-8 text-2xl font-bold text-gray-700 dark:text-white md:text-4xl">
             Matches Schedule
@@ -25,21 +25,25 @@ export const FO4MatchesSections = () => {
           {Object.values(data.matches)?.map((m) => {
             const teamA = {
               ...m.teamA,
-              detail: m.teamA.id ? (dataTeam[m.teamA.id] as Team) : undefined,
+              detail: m.teamA.id
+                ? (dataTeam[m.teamA.id] as Fo4Team)
+                : undefined,
             };
             const teamB = {
               ...m.teamB,
-              detail: m.teamB.id ? (dataTeam[m.teamB.id] as Team) : undefined,
+              detail: m.teamB.id
+                ? (dataTeam[m.teamB.id] as Fo4Team)
+                : undefined,
             };
-            const match: Match = {
+            const match: Fo4Match = {
               ...m,
               teamA,
               teamB,
             };
-            return <MatchCard key={match.id} match={match} />;
+            return <Fo4MatchCard key={match.id} match={match} />;
           })}
         </div>
-      </Container>
+      </AppContainer>
     </div>
   );
 };

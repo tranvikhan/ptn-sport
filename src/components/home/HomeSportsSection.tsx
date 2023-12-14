@@ -1,11 +1,11 @@
 import { ROUTES } from "@/constants/routes";
 import Image from "next/image";
-import { Container } from "../layout/Container";
+import { AppContainer } from "../layout/AppContainer";
 
-export const SportsSection = () => {
+export const HomeSportsSection = () => {
   return (
     <div id="sports">
-      <Container>
+      <AppContainer>
         <div className="md:w-2/3 lg:w-1/2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -180,7 +180,7 @@ export const SportsSection = () => {
             </div>
           </div>
         </div>
-      </Container>
+      </AppContainer>
     </div>
   );
 };

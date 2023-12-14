@@ -1,11 +1,11 @@
 import { ROUTES } from "@/constants/routes";
-import { NavButton } from "../NavButton";
-import { Container } from "./Container";
+import { NavButton } from "../core/NavButton";
+import { AppContainer } from "./AppContainer";
 
 export const AppFooter = () => {
   return (
     <footer className="py-10 md:py-20">
-      <Container>
+      <AppContainer>
         <div className="flex flex-col gap-16 w-full items-center">
           <ul className="flex flex-wrap list-inside list-disc gap-8 text-gray-600 dark:text-gray-300">
             <li>
@@ -25,7 +25,7 @@ export const AppFooter = () => {
             &copy; 2023 Khan Tran PTN Global
           </span>
         </div>
-      </Container>
+      </AppContainer>
     </footer>
   );
 };

@@ -1,11 +1,11 @@
 import { ROUTES } from "@/constants/routes";
 import Image from "next/image";
-import { Container } from "../layout/Container";
+import { AppContainer } from "../layout/AppContainer";
 
-export const Blog = () => {
+export const HomeActivities = () => {
   return (
-    <div id="blog">
-      <Container>
+    <div id="activities">
+      <AppContainer>
         <div className="mb-12 space-y-2 text-center">
           <h2 className="text-3xl font-bold text-gray-800 md:text-4xl dark:text-white">
             Latest Activities
@@ -101,7 +101,7 @@ export const Blog = () => {
             </div>
           </div>
         </div>
-      </Container>
+      </AppContainer>
     </div>
   );
 };

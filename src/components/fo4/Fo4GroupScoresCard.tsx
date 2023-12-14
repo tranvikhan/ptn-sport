@@ -1,14 +1,16 @@
-import { GroupScores } from "@/models/GroupScores";
-import { Team } from "@/models/Team";
+import { Fo4GroupScores, Fo4Team } from "@/models/fo4/entities";
 import Image from "next/image";
 
-export interface GroupCardProps {
-  groupScores: GroupScores;
+export interface Fo4GroupCardProps {
+  groupScores: Fo4GroupScores;
   teams: {
-    [key in string]: Team;
+    [key in string]: Fo4Team;
   };
 }
-export const GroupScoresCard = ({ groupScores, teams }: GroupCardProps) => {
+export const Fo4GroupScoresCard = ({
+  groupScores,
+  teams,
+}: Fo4GroupCardProps) => {
   return (
     <div className="flex flex-col gap-6">
       <p className="text-gray-600 dark:text-gray-300 text-lg md:text-xl">

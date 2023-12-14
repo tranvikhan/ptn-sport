@@ -1,7 +1,7 @@
-import { GroupScoresSections } from "@/components/fo4/GroupScoresSection";
-import { FO4HeroSection } from "@/components/fo4/HeroSection";
-import { FO4MatchesSections } from "@/components/fo4/MatchesSection";
-import { FO4TeamsSections } from "@/components/fo4/TeamsSection";
+import { Fo4GroupScoresSections } from "@/components/fo4/Fo4GroupScoresSections";
+import { Fo4HeroSection } from "@/components/fo4/Fo4HeroSection";
+import { Fo4MatchesSections } from "@/components/fo4/Fo4MatchesSections";
+import { Fo4TeamsSections } from "@/components/fo4/Fo4TeamsSections";
 
 export const metadata = {
   title: "Fifa Online 4",
@@ -10,10 +10,10 @@ export const metadata = {
 export default function FO4Page() {
   return (
     <main className="space-y-40 mb-40">
-      <FO4HeroSection />
-      <GroupScoresSections />
-      <FO4MatchesSections />
-      <FO4TeamsSections />
+      <Fo4HeroSection />
+      <Fo4GroupScoresSections />
+      <Fo4MatchesSections />
+      <Fo4TeamsSections />
     </main>
   );
 }

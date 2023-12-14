@@ -1,7 +1,7 @@
-import { Button } from "../Button";
-import { Container } from "../layout/Container";
+import { Button } from "../core/Button";
+import { AppContainer } from "../layout/AppContainer";
 
-export const HeroSection = () => {
+export const HomeHeroSection = () => {
   return (
     <div className="relative" id="home">
       <div
@@ -11,7 +11,7 @@ export const HeroSection = () => {
         <div className="blur-[106px] h-56 bg-gradient-to-br from-primary to-purple-400 dark:from-blue-700"></div>
         <div className="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-sky-300 dark:to-indigo-600"></div>
       </div>
-      <Container>
+      <AppContainer>
         <div className="relative pt-36 ml-auto">
           <div className="lg:w-2/3 text-center mx-auto">
             <h2 className="text-gray-900 dark:text-white font-medium text-1xl md:text-2xl xl:text-3xl">
@@ -38,7 +38,7 @@ export const HeroSection = () => {
             </div>
           </div>
         </div>
-      </Container>
+      </AppContainer>
     </div>
   );
 };

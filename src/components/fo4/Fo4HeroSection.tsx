@@ -1,7 +1,8 @@
-import { Button } from "../Button";
-import { Container } from "../layout/Container";
+import { Button } from "../core/Button";
+import { AppContainer } from "../layout/AppContainer";
 import Image from "next/image";
-export const FO4HeroSection = () => {
+
+export const Fo4HeroSection = () => {
   return (
     <div className="relative">
       <div
@@ -11,7 +12,7 @@ export const FO4HeroSection = () => {
         <div className="blur-[106px] h-56 bg-gradient-to-br from-primary to-purple-400 dark:from-blue-700"></div>
         <div className="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-sky-300 dark:to-indigo-600"></div>
       </div>
-      <Container>
+      <AppContainer>
         <div className="relative pt-24 ml-auto">
           <div className="lg:w-2/3 flex flex-col gap-8 items-center mx-auto">
             <Image
@@ -42,7 +43,7 @@ export const FO4HeroSection = () => {
             </div>
           </div>
         </div>
-      </Container>
+      </AppContainer>
     </div>
   );
 };
