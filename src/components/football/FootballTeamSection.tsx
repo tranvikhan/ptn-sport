@@ -45,6 +45,7 @@ export const FootballTeamSection = () => {
                   alt="Football"
                   width={120}
                   height={120}
+                  className="rounded-full"
                 />
                 <div className="flex flex-col">
                   <h2

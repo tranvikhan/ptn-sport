@@ -44,7 +44,7 @@ export const FootballMatchesSections = () => {
                             loading="lazy"
                             width={100}
                             height={100}
-                            className="w-[70px] md:w-[100px]"
+                            className="w-[70px] md:w-[100px] rounded-full"
                           />
                           <div className="flex-1 flex flex-col items-start">
                             <h2 className="text-sm font-medium text-gray-700 dark:text-white md:text-md">
@@ -71,7 +71,7 @@ export const FootballMatchesSections = () => {
                             loading="lazy"
                             width={100}
                             height={100}
-                            className="w-[70px] md:w-[100px]"
+                            className="w-[70px] md:w-[100px] rounded-full"
                           />
                         </div>
                       </div>
