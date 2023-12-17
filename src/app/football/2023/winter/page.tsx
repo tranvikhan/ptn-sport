@@ -1,6 +1,7 @@
 import { AnimationSnow } from "@/components/animations/AnimationSnow";
 import { FootballHeroSection } from "@/components/football/FootballHeroSection";
 import { FootballMatchesSections } from "@/components/football/FootballMatchesSections";
+import { FootballRakingSections } from "@/components/football/FootballRakingSections";
 import { FootballTeamSection } from "@/components/football/FootballTeamSection";
 
 export const metadata = {
@@ -14,6 +15,7 @@ export default function Football2023Winter() {
       <AnimationSnow />
       <main className="space-y-40 mb-40">
         <FootballHeroSection />
+        <FootballRakingSections />
         <FootballTeamSection />
         <FootballMatchesSections />
       </main>

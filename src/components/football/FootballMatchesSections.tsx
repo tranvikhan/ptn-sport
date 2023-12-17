@@ -34,7 +34,7 @@ export const FootballMatchesSections = () => {
                   return (
                     <div
                       key={index}
-                      className="aspect-auto p-4 md:p-6 border border-gray-100 rounded-3xl bg-white dark:bg-gray-800 dark:border-gray-700 shadow-2xl shadow-gray-600/10 dark:shadow-none hover:shadow transition"
+                      className="aspect-auto p-4 md:p-6 border border-gray-100 rounded-xl bg-white dark:bg-gray-800 dark:border-gray-700 dark:shadow-none hover:shadow-2xl hover:shadow-gray-600/10 transition"
                     >
                       <div className="flex flex-row justify-between items-center">
                         <div className="flex-1 flex flex-row items-center space-x-2">

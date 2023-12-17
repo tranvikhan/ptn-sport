@@ -144,4 +144,10 @@ export const football2023WinterMock: FootballMockData = {
       ],
     },
   ],
+  rankings: [
+    { teamId: "che_do_ptn", title: "1st", color: "#dbb20b" },
+    { teamId: "quy_do_ptn", title: "2nd", color: "#b0a25a" },
+    { teamId: "tri_an_fc", title: "3rd", color: "#bf8150" },
+    { teamId: "quy_rau_xanh", title: "3rd", color: "#bf8150" },
+  ],
 };

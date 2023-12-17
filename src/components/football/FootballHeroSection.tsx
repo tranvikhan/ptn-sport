@@ -64,8 +64,8 @@ export const FootballHeroSection = () => {
                       <Button href="#teams" variant="secondary">
                         View teams
                       </Button>
-                      <Button href="#matches" variant="primary">
-                        Go matches result
+                      <Button href="#raking" variant="primary">
+                        View raking
                       </Button>
                     </div>
                   ) : (

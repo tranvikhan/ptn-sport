@@ -3,6 +3,12 @@ export interface FootballMockData {
     [key in string]: FootballTeam;
   };
   matchRounds: FootballMatchRound[];
+  rankings: Ranking[];
+}
+export interface Ranking {
+  teamId: string;
+  title: string;
+  color: string;
 }
 
 export interface FootballTeam {
