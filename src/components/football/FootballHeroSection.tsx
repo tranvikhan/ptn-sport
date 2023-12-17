@@ -64,7 +64,7 @@ export const FootballHeroSection = () => {
                       <Button href="#teams" variant="secondary">
                         View teams
                       </Button>
-                      <Button href="#raking" variant="primary">
+                      <Button href="#ranking" variant="primary">
                         View raking
                       </Button>
                     </div>
